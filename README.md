@@ -2,6 +2,28 @@
 
 Proyecto frontend desarrollado para la asignatura **Desarrollo FullStack II (DSY1104)**.
 
+## Integrantes
+
+- Daniel Saa Sanchez
+- Luciano Campos Olmos
+- Alexis Molina Milanca
+
+## Requisitos previos
+
+Para ejecutar el proyecto se necesita:
+
+- Un navegador web actualizado.
+- Visual Studio Code.
+- Extensión Live Server recomendada.
+
+## Instrucciones de ejecución
+
+1. Descargar o clonar el repositorio.
+2. Abrir la carpeta del proyecto en Visual Studio Code.
+3. Abrir el archivo `index.html`.
+4. Ejecutar el proyecto utilizando Live Server.
+5. Navegar por las diferentes vistas mediante el menú principal.
+
 ## Descripción
 
 eSports Arena Manager es una plataforma orientada a la gestión de torneos de videojuegos competitivos. La aplicación permite consultar torneos, equipos, partidas y rankings, además de realizar inscripciones y simular diferentes perfiles de usuario.
@@ -69,3 +91,4 @@ esports-arena-frontend/
 │   └── torneos.html
 ├── index.html
 └── README.md
+
