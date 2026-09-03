@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eSports Arena Manager</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>eSports Arena Manager</h1>
+        <p>Gestión de torneos competitivos</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="pages/torneos.html">Torneos</a>
+        <a href="pages/equipos.html">Equipos</a>
+        <a href="pages/inscripcion.html">Inscripción</a>
+        <a href="pages/partidas.html">Partidas</a>
+        <a href="pages/ranking.html">Ranking</a>
+        <a href="pages/registro.html">Registro</a>
+    </nav>
+
+    <main>
+        <section>
+    <h2>Perfil de prueba</h2>
+
+    <p>
+        Selecciona un perfil para simular los diferentes roles del sistema.
+    </p>
+
+    <label for="perfil">Perfil:</label>
+
+    <select id="perfil">
+        <option value="VISITANTE">Visitante</option>
+        <option value="JUGADOR">Jugador</option>
+        <option value="ORGANIZADOR">Organizador</option>
+        <option value="ADMINISTRADOR">Administrador</option>
+    </select>
+
+    <p id="mensaje-perfil">
+        Perfil actual: Visitante
+    </p>
+</section>
+
+        <section>
+    <h2>Bienvenido</h2>
+
+    <p>
+        Consulta torneos, equipos, partidas y rankings
+        dentro de eSports Arena Manager.
+    </p>
+
+    <img
+        src="img/banner-esports.png"
+        alt="Banner de eSports Arena Manager"
+        class="banner-principal"
+    >
+</section>
+<section>
+    <h2>Conoce el mundo de los eSports</h2>
+
+    <p>
+        Los eSports reúnen jugadores y equipos en competencias
+        organizadas de videojuegos.
+    </p>
+
+    <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/IvA-cHSk9-k"
+        title="Video relacionado con eSports"
+        allowfullscreen>
+    </iframe>
+</section>
+
+    </main>
+
+    <footer>
+        <p>Desarrollo FullStack II - eSports Arena Manager</p>
+    </footer>
+    <script src="js/perfil.js"></script>
+
+</body>
+
+</html>

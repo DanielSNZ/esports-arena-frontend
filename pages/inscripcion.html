@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción - eSports Arena Manager</title>
+
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>eSports Arena Manager</h1>
+        <p>Gestión de torneos competitivos</p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="torneos.html">Torneos</a>
+        <a href="equipos.html">Equipos</a>
+        <a href="inscripcion.html">Inscripción</a>
+        <a href="partidas.html">Partidas</a>
+        <a href="ranking.html">Ranking</a>
+    </nav>
+
+    <main>
+
+        <section>
+    <h2>Inscripción a torneo</h2>
+
+    <p>
+        Completa los datos para solicitar la inscripción
+        de tu equipo a un torneo.
+    </p>
+
+    <form id="form-inscripcion">
+
+        <div>
+            <label for="nombre-equipo">Nombre del equipo:</label>
+            <input
+                type="text"
+                id="nombre-equipo"
+                name="nombre-equipo"
+                autocomplete="organization"
+                placeholder="Ej: Team Phoenix"
+                required
+            >
+            <small id="error-equipo"></small>
+        </div>
+
+        <div>
+            <label for="correo-capitan">Correo del capitán:</label>
+            <input
+                type="email"
+                id="correo-capitan"
+                name="correo-capitan"
+                autocomplete="email"
+                placeholder="Ej: capitan@correo.com"
+                required
+            >
+            <small id="error-correo"></small>
+        </div>
+
+        <div>
+            <label for="torneo">Torneo:</label>
+            <select id="torneo" name="torneo" required>
+                <option value="">Seleccione un torneo</option>
+                <option value="1">Valorant Masters</option>
+            </select>
+            <small id="error-torneo"></small>
+        </div>
+
+        <div>
+            <label for="cantidad-jugadores">Cantidad de jugadores:</label>
+            <input
+                type="number"
+                id="cantidad-jugadores"
+                name="cantidad-jugadores"
+                min="1"
+                max="10"
+                placeholder="Ej: 5"
+                required
+            >
+            <small id="error-jugadores"></small>
+        </div>
+
+        <button type="submit">Enviar inscripción</button>
+
+    </form>
+
+</section>
+
+    </main>
+
+    <footer>
+        <p>Desarrollo FullStack II - eSports Arena Manager</p>
+    </footer>
+<script src="../js/validaciones.js"></script>
+</body>
+
+</html>
